@@ -1,6 +1,6 @@
-package com.fjl.microservicecloud.service;
+package com.fjl.springcloud.service;
 
-import com.fjl.microservicecloud.entities.Dept;
+import com.fjl.springcloud.entities.Dept;
 import org.springframework.cloud.netflix.feign.FeignClient;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -19,7 +19,7 @@ import java.util.List;
  * @date 2018年4月21日
  */
 //@FeignClient(value = "MICROSERVICECLOUD-DEPT")
-@FeignClient(value = "MICROSERVICECLOUD-DEPT", fallbackFactory = com.fjl.microservicecloud.service.DeptClientServiceFallbackFactory.class)
+@FeignClient(value = "MICROSERVICECLOUD-DEPT", fallbackFactory = com.fjl.springcloud.service.DeptClientServiceFallbackFactory.class)
 public interface DeptClientService {
     @RequestMapping(value = "/dept/get/{id}", method = RequestMethod.GET)
     public Dept get(@PathVariable("id") long id);

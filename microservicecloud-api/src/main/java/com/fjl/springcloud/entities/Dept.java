@@ -1,4 +1,4 @@
-package com.fjl.microservicecloud.entities;
+package com.fjl.springcloud.entities;
 
 import lombok.Data;
 import lombok.NoArgsConstructor;

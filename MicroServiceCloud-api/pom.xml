@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent><!-- 子类里面显示声明才能有明确的继承表现，无意外就是父类的默认版本否则自己定义 -->
-        <groupId>com.fjl.MicroServiceCloud</groupId>
+        <groupId>com.fjl.springcloud</groupId>
         <artifactId>MicroServiceCloud</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>

@@ -6,7 +6,7 @@ import lombok.experimental.Accessors;
 
 import java.io.Serializable;
 
-
+@SuppressWarnings("serial")
 @NoArgsConstructor
 //@AllArgsConstructor
 @Data

@@ -14,8 +14,8 @@ spring:
     type: com.alibaba.druid.pool.DruidDataSource            # 当前数据源操作类型
     driver-class-name: org.gjt.mm.mysql.Driver              # mysql驱动包
     url: jdbc:mysql://139.9.47.41:3306/cloudDB01              # 数据库名称
-    username: root
-    password: root
+    username: fjl_root
+    password: FJLliu6
     dbcp2:
       min-idle: 5                                           # 数据库连接池的最小维持连接数
       initial-size: 5                                       # 初始化连接数
@@ -31,7 +31,7 @@ eureka:
     prefer-ip-address: true     #访问路径可以显示IP地址
 
 info:
-  app.name: atguigu-microservicecloud
-  company.name: www.atguigu.com
+  app.name: fjl-microservicecloud
+  company.name: www.fjl.com
   build.artifactId: ${project.artifactId}
   build.version: ${project.version}

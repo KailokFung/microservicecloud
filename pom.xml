@@ -12,6 +12,7 @@
     <modules>
         <module>MicroServiceCloud-api</module>
         <module>MicroServiceCloud-provider-dept-8001</module>
+        <module>MicroServiceCloud-provider-dept-8003</module>
         <module>MicroServiceCloud-consumer-dept-80</module>
         <module>MicroServiceCloud--eureka-7001</module>
         <module>MicroServiceCloud-eureka-7002</module>

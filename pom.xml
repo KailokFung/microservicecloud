@@ -17,6 +17,7 @@
         <module>MicroServiceCloud--eureka-7001</module>
         <module>MicroServiceCloud-eureka-7002</module>
         <module>MicroServiceCloud-eureka-7003</module>
+        <module>MicroServiceCloud-provider-dept-8002</module>
     </modules>
 
     <properties>

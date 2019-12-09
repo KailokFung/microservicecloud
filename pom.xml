@@ -19,6 +19,7 @@
         <module>MicroServiceCloud-eureka-7003</module>
         <module>MicroServiceCloud-provider-dept-8002</module>
         <module>MicroServiceCloud-consumer-dept-feign</module>
+        <module>MicroServiceCloud-provider-dept-hystrix-8001</module>
     </modules>
 
     <properties>

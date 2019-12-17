@@ -18,8 +18,8 @@ import java.util.List;
  * 一个实现了FallbackFactory接口的类DeptClientServiceFallbackFactory
  * @date 2018年4月21日
  */
-@FeignClient(value = "MICROSERVICECLOUD-DEPT")
-//@FeignClient(value = "MICROSERVICECLOUD-DEPT", fallbackFactory = com.fjl.springcloud.service.DeptClientServiceFallbackFactory.class)
+//@FeignClient(value = "MICROSERVICECLOUD-DEPT")
+@FeignClient(value = "MICROSERVICECLOUD-DEPT", fallbackFactory = com.fjl.springcloud.service.DeptClientServiceFallbackFactory.class)
 public interface DeptClientService {
     @RequestMapping(value = "/dept/get/{id}", method = RequestMethod.GET)
     public Dept get(@PathVariable("id") long id);

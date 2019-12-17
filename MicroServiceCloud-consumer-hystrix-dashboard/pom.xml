@@ -15,7 +15,7 @@
         <!-- 自己定义的api -->
         <dependency>
             <groupId>com.fjl.springcloud</groupId>
-            <artifactId>microservicecloud-api</artifactId>
+            <artifactId>MicroServiceCloud-api</artifactId>
             <version>${project.version}</version>
         </dependency>
         <dependency>

@@ -24,6 +24,8 @@
         <module>MicroServiceCloud-zuul-gateway-9527</module>
         <module>MicroServiceCloud-config-3344</module>
         <module>MicroServiceCloud-config-client-3355</module>
+        <module>MicroServiceCloud-config-eureka-client-7001</module>
+        <module>MicroServiceCloud-config-dept-client-8001</module>
     </modules>
 
     <properties>
